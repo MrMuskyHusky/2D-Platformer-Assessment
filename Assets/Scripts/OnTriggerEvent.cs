@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TriggerEvent : MonoBehaviour
+public class OnTriggerEvent : MonoBehaviour
 {
     public UnityEvent onEnter, onStay, onExit;
     public UnityEvent onInteract;
